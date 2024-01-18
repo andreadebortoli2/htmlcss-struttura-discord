@@ -106,17 +106,24 @@ nav {
 }
     /* #rendegion main_footer */
 /* #endregion main */
+/* #endregion main */
 
 /* #region footer */
-
 footer {
     background-color: black;
 }
     /* #region footer_top */
+#footer_top {
+    border-bottom: 2px solid white;
+}
+
 .footer_top {
     justify-content: ;
 }
 .footer_text {
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
     background-color: brown;
     border: 2px dashed black;
 }
@@ -125,6 +132,15 @@ footer {
     background-color: aqua;
     justify-content: space-around;
     flex-grow: 6;
+    flex-wrap: wrap;
+}
+
+.footer_nav_list>ul {
+    list-style: none;
+}
+.footer_nav_list {
+    border: 2px dashed white;
+    padding: 0 2rem;
 }
     /* #endregion footer_top */
     /* #region footer_bottom */
