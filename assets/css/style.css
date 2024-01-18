@@ -17,7 +17,7 @@
 .container {
     margin: auto;
     width: 80%;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 /* #endregion utilities */
@@ -29,15 +29,17 @@ header {
     justify-content: center;
 }
 
-.logo {
+.header {
     background-color: orange;
+}
+
+.logo {
     border: 2px dashed black;
     padding: 0.3rem;
     flex-grow: 1;
 }
 
 nav {
-    background-color: orange;
     border: 2px dashed black;
     padding: 0.3rem;
     justify-content: space-around;
@@ -45,7 +47,6 @@ nav {
 }
 
 .login {
-    background-color: orange;
     border: 2px dashed black;
     padding: 0.3rem;
     justify-content: flex-end;
@@ -64,6 +65,7 @@ nav {
 
 .main_header {
     background-color: plum;
+    border: 2px dashed black;
 }
     /* #endregion main_header */
     /* #region main_body */
@@ -74,12 +76,14 @@ nav {
 .main_img {
     width: 60%;
     background-color: lightskyblue;
+    border: 2px dashed black;
 }
 
 .main_text {
     width: 40%;
     background-color: pink;
     padding: 1rem;
+    border: 2px dashed black;
 }
     /* #endregion main_body */
     /* #region main_footer */
@@ -91,6 +95,7 @@ nav {
 
 .main_footer{
     background-color: green;
+    border: 2px dashed black;
 }
 
 .main_footer_img {
@@ -105,8 +110,39 @@ nav {
 /* #region footer */
 
 footer {
-    height: 250px;
     background-color: black;
 }
+    /* #region footer_top */
+.footer_top {
+    justify-content: ;
+}
+.footer_text {
+    background-color: brown;
+    border: 2px dashed black;
+}
+
+.footer_nav {
+    background-color: aqua;
+    justify-content: space-around;
+    flex-grow: 6;
+}
+    /* #endregion footer_top */
+    /* #region footer_bottom */
+.footer_bottom {
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    background-color: pink;
+    padding: 0.3rem;
+    border: 2px dashed black;
+}
+.footer_btn {
+    background-color: pink;
+    padding: 0.3rem;
+    border: 2px dashed black;
+}
+    /* #endregion footer_bottom */
 
 /* #endregion footer */
