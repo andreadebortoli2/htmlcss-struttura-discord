@@ -1,5 +1,75 @@
+/* #region common */
+
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #endregion common */
+
+/* #region utilities */
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+}
+
+/* #region utilities */
+
+/* #region header */
+
+header {
+    height: 50px;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.logo {
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border: 2px dashed black;
+    padding: 0.3rem;
+}
+
+nav {
+    height: 30px;
+    width: 500px;
+    background-color: orange;
+    border: 2px dashed black;
+    padding: 0.3rem;
+    justify-content: space-around;
+}
+
+.login {
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border: 2px dashed black;
+    padding: 0.3rem;
+    justify-content: flex-end;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+main {
+    height: 550px;
+    background-color: palegoldenrod;
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+footer {
+    height: 250px;
+    background-color: black;
+}
+
+/* #endregion footer */
