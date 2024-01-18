@@ -60,7 +60,7 @@ nav {
 #main_header {
     background-color: blue;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .main_header {
@@ -90,7 +90,7 @@ nav {
 #main_footer {
     background-color: lightgray;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .main_footer{
