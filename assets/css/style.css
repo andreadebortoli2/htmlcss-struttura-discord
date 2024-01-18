@@ -16,51 +16,81 @@
 
 .container {
     margin: auto;
+    width: 80%;
+    padding: 2rem;
 }
 
-/* #region utilities */
+/* #endregion utilities */
 
 /* #region header */
 
 header {
-    height: 50px;
     background-color: aquamarine;
     justify-content: center;
 }
 
 .logo {
-    height: 30px;
-    width: 100px;
     background-color: orange;
     border: 2px dashed black;
     padding: 0.3rem;
+    flex-grow: 1;
 }
 
 nav {
-    height: 30px;
-    width: 500px;
     background-color: orange;
     border: 2px dashed black;
     padding: 0.3rem;
     justify-content: space-around;
+    flex-grow: 5;
 }
 
 .login {
-    height: 30px;
-    width: 100px;
     background-color: orange;
     border: 2px dashed black;
     padding: 0.3rem;
     justify-content: flex-end;
+    flex-grow: 1;
 }
 
 /* #endregion header */
 
 /* #region main */
 
-main {
-    height: 550px;
-    background-color: palegoldenrod;
+#main_header {
+    background-color: blue;
+    text-align: center;
+    padding: 2rem;
+}
+
+.main_header {
+    background-color: plum;
+}
+
+.middle {
+    background-color: lightgray;
+}
+
+.main_img {
+    width: 60%;
+    background-color: lightskyblue;
+}
+
+.main_text {
+    width: 40%;
+    background-color: pink;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+#main_footer {
+    height: 150px;
+    background-color: lightgray;
 }
 
 /* #endregion main */
